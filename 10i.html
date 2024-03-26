@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <title> 10i </title>
+       <link rel="stylesheet" href="10i.css">
+    </head>
+    <body>
+        <div class="calc-div">
+            <div class="result-div">
+                <p class="result" id="result"> </p>
+            </div>
+            <div class="buttons">
+                <button class="button-general number"
+                onclick="addChar('1');"> 1 </button>
+                <button class="button-general number"
+                onclick="addChar('2');"> 2 </button>
+                <button class="button-general number"
+                onclick="addChar('3');"> 3 </button>
+                <button class="button-general calc"
+                onclick="addCalc('+');"> + </button>
+                <button class="button-general number"
+                onclick="addChar('4');"> 4 </button>
+                <button class="button-general number"
+                onclick="addChar('5');"> 5 </button>
+                <button class="button-general number"
+                onclick="addChar('6');"> 6 </button>
+                <button class="button-general calc"
+                onclick="addCalc('-');"> - </button>
+                <button class="button-general number"
+                onclick="addChar('7');"> 7 </button>
+                <button class="button-general number"
+                onclick="addChar('8');"> 8 </button>
+                <button class="button-general number"
+                onclick="addChar('9');"> 9 </button>
+                <button class="button-general calc"
+                onclick="addCalc('*');"> * </button>
+                <button class="button-general number"
+                onclick="addChar('0');"> 0 </button>
+                <button class="button-general action"
+                onclick="addDot();"> . </button>
+                <button class="button-general action"
+                onclick="calc();"> = </button>
+                <button class="button-general calc"
+                onclick="addCalc('/');"> / </button>
+                <button class="button-general action" id="clear-button"
+                onclick="clearField();"> clear </button>
+            </div>
+        </div>
+
+        <script src="10i.js"> </script>
+    </body>
+</html>
